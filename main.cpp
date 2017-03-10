@@ -19,7 +19,7 @@ public:
 		this->Area_t = 'C';
 		this->a = x;
 		this->b = 0;
-		this->s = (3.14*pow(x, 2));
+		this->s = 3.14*pow(x, 2);
 	}
 	void print()
 	{
